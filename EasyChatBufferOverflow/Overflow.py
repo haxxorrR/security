@@ -6,7 +6,7 @@
 # Tested on: [Windows 7 sp1 Eng]
 
 # ======================================================================================================================
-#	Username parameter in Registeration page 'register.ghp' is prone to a stack-based buffer-overflow vulnerability.
+#	Username parameter in Registeration page 'register.php' is prone to a stack-based buffer-overflow vulnerability.
 # Application fails to properly bounds-check user-supplied data before copying it into an insufficiently sized buffer. 
 # ======================================================================================================================
 
